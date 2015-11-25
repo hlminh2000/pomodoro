@@ -1,0 +1,51 @@
+<HTML>
+
+  <head>
+    <title></title>
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Poppins:300,600,400' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href='style.css' type='text/css'>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Scripts -->
+    <script src='script.js' type='text/javascript'></script>
+  </head>
+
+
+
+  <body>
+    <div class="container">
+    <div class = "main">
+        <canvas id="clock" height='600px' width='600px'>get chrome</canvas>
+        <div class = "inputs">
+          <div class = "col-xs-6"><h3>SESSION LENGTH</h3></div>
+          <div class = "col-xs-6"><h3>BREAK LENGTH</h3></div>
+          <div class = "col-xs-6 parameterSet">
+            <div class = "col-xs-4 parameter">hours<input type="number" id="shh" min="00" max="24" value = "00"></div>
+            <div class = "col-xs-4 parameter">minutes<input type="number" id="smm" min="00" max="59" value = "25"></div>
+            <div class = "col-xs-4 parameter">seconds<input type="number" id="sss" min="00" max="59" value = "00"></div>
+          </div>
+          <div class = "col-xs-6 parameterSet">
+            <div class = "col-xs-4 parameter">hours<input type="number" id="bhh" min="00" max="24" value = "00"></div>
+            <div class = "col-xs-4 parameter">minutes<input type="number" id="bmm" min="00" max="59" value = "05"></div>
+            <div class = "col-xs-4 parameter">seconds<input type="number" id="bss" min="00" max="59" value = "00"></div>
+          </div>
+        </div>
+
+
+        <div class = "buttons">
+          <button id="startStop">START</button>
+          <button id="reset">RESET</button>
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+
+
+</HTML>

@@ -1,0 +1,125 @@
+html{
+  height: 100%;
+  position: relative;
+}
+
+body{
+  font-family: 'Poppins Light', sans-serif;
+  height: 100%;
+  min-height: 600px;
+  background-color: rgb(242, 242, 242);
+/*  background-image: url("http://cdn.playbuzz.com/cdn/d0e082a9-17b1-44c6-aad2-ba9c8962a174/8fd0121b-3ec9-4423-a930-8acca444c858.jpg"); */
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: rgb(150, 150, 150);
+}
+
+div{
+/*  border: solid 3px red; */
+}
+
+.container{
+  position: relative;
+  max-width: 700px;
+  height: 100%;
+}
+
+.main{
+  position: absolute;
+  top:10%;
+  bottom: 10%;
+  left: 0%;
+  right: 0%;
+}
+
+/*-- Canvas Area --*/
+canvas{
+  /*border:solid 2px yellow; */
+}
+
+/*-- Input Area --*/
+.inputs{
+  position: absolute;
+  top: 400px;
+  /*bottom: 30%;*/
+  left: 10%;
+  right: 10%;
+/*  border: solid 2px blue; */
+}
+
+.parameterSet{
+  position: relative;
+  color: gray;
+}
+
+.parameter{
+  padding: 0px;
+}
+
+input{
+  width: 60%;
+  border-radius: 5px;
+  background-color: rgba(100, 100, 100, 0.1);
+  border:none;
+  border-top: solid 1px rgb(200, 200, 200);
+  text-align: center;
+  color: gray;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus{
+  outline: none;
+}
+
+
+/*-- Buttons Area --*/
+.buttons{
+  color: white;
+  position: relative;
+  /*top:70%;
+  bottom: 0%;*/
+  z-index: 100;
+  margin-top: -50px;
+  left: 0%;
+  right: 0%;
+/*  border: solid 2px green; */
+}
+
+button{
+  margin-top: 2%;
+  width: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 40px;
+  font-size: 1.7em;
+  border:none;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+button:focus{
+  outline: none;
+}
+
+#startStop{
+  background-color: rgb(112, 173, 71);
+}
+
+#reset{
+  background-color: rgba(56, 56, 56, 0.5);
+  color: white;
+}
+
+#startStop.red{
+  background-color: rgb(255, 71, 49);
+}
